@@ -1,9 +1,12 @@
 import Header from "./components/Header"
-
+import LeftPanel from "./components/LeftPanel"
 function App() {
     return (
         <>
-            <Header></Header>
+            <Header />
+            <div>
+                <LeftPanel />
+            </div>
         </>
     )
 }
